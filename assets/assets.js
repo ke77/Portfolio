@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -17,7 +17,7 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './profile-img.jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -85,25 +85,29 @@ export const workData = [
         title: 'Merrylow',
         description: 'Campus food delivery',
         bgImage: '/work-1.jpg',
-        logo: '/merrylow.png'
+        logo: '/merrylow.png',
+        link: 'https://merrylow.vercel.app/'
     },
     {
         title: 'Amazon Clone',
         description: 'Amazon website clone',
         bgImage: '/work-2.jpg',
-        logo: '/amazon.png'
+        logo: '/amazon.png',
+        link: 'https://amazon-project00.vercel.app'
     },
     {
         title: 'Hirely - Job search',
         description: 'Job posting and search',
         bgImage: '/work-3.jpg',
-        logo: '/hirely.png'
+        logo: '/hirely.png',
+        link: 'https://hirely00.vercel.app'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Gadget Store',
+        description: 'Product shop',
         bgImage: '/work-4.png',
-        logo: '/'
+        logo: '/gadget-store.png',
+        link: 'https://gadget-store00.vercel.app'
     },
 ]
 
@@ -113,8 +117,8 @@ export const servicesData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc in Physics' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages/frameworks', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc in Physics( -2026)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built a handful of real-world projects' }
 ];
 
