@@ -12,7 +12,7 @@ const Certifications = ({ isDarkMode }: any) => {
                whileInView={{ opacity: 1 }}
                transition={{ duration: 1 }}
                id='certifications' 
-               className='w-full px-[12%] py-10 scroll-mt-20 mb-14'
+               className='lg:min-w-3xl mx-auto border w-full px-[12%] py-10 scroll-mt-20 mb-14'
           >
                <motion.h4 
                     initial={{ opacity: 0, y: -20 }}
@@ -44,7 +44,7 @@ const Certifications = ({ isDarkMode }: any) => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.8 }} 
-                    className='grid grid-cols-1 lg:grid-cols-2 gap-12 my-16'
+                    className='grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-7 my-16'
                >
                     {certificationsData.map((certification, index) => (
                          <motion.div
@@ -53,37 +53,37 @@ const Certifications = ({ isDarkMode }: any) => {
                               whileInView={{ opacity: 1, y: 0 }}
                               transition={{ duration: 0.6, delay: index * 0.2 }}
                               whileHover={{ scale: 1.02 }}
-                              className='flex flex-col sm:flex-row items-center gap-6 p-6 border-[0.5px] border-gray-400 rounded-xl cursor-pointer hover:bg-lightHover hover:-translate-y-1 hover:border-gray-100 transition duration-500 hover:shadow-md dark:border-white/60 dark:hover:shadow-white dark:hover:bg-darkHover/50'
+                              className='flex flex-col sm:flex-row items-center gap-4 py-6 px-5 border-[0.5px] border-gray-400 rounded-xl cursor-pointer hover:bg-lightHover hover:-translate-y-1 hover:border-gray-100 transition duration-500 hover:shadow-md dark:border-white/60 dark:hover:shadow-white dark:hover:bg-darkHover/50'
                          >
                               {/* Certificate Image */}
                               <motion.div 
-                              initial={{ opacity: 0, scale: 0.9 }}
-                              whileInView={{ opacity: 1, scale: 1 }}
-                              transition={{ duration: 0.6, delay: index * 0.2 + 0.2 }}
-                              className='w-full sm:w-48 h-48 flex-shrink-0 rounded-lg overflow-hidden'
+                                   initial={{ opacity: 0, scale: 0.9 }}
+                                   whileInView={{ opacity: 1, scale: 1 }}
+                                   transition={{ duration: 0.6, delay: index * 0.2 + 0.2 }}
+                                   className='w-full sm:w-48 h-48 flex-shrink-0 rounded-lg overflow-hidden flex flex-row items-center'
                               >
-                              <Image 
-                                   src={certification.image} 
-                                   alt={certification.title}
-                                   width={200}
-                                   height={200}
-                                   className='w-full h-full object-cover'
-                              />
+                                   <Image
+                                        src={certification.image} 
+                                        alt={certification.title}
+                                        width={170}
+                                        height={100}
+                                        className='w-full object-cover'
+                                   />
                               </motion.div>
 
                               {/* Certificate Details */}
                               <motion.div
-                              initial={{ opacity: 0, x: 20 }}
-                              whileInView={{ opacity: 1, x: 0 }}
-                              transition={{ duration: 0.6, delay: index * 0.2 + 0.4 }}
-                              className='flex-1 text-center sm:text-left'
+                                   initial={{ opacity: 0, x: 20 }}
+                                   whileInView={{ opacity: 1, x: 0 }}
+                                   transition={{ duration: 0.6, delay: index * 0.2 + 0.4 }}
+                                   className='flex-1 text-center sm:text-left'
                               >
-                              <h3 className='text-xl font-semibold text-gray-700 dark:text-white mb-2'>
-                                   {certification.title}
-                              </h3>
-                              <p className='text-gray-600 dark:text-white/80 mb-1'>
-                                   {certification.company}, {certification.year}
-                              </p>
+                                   <h3 className='text-lg font-semibold text-gray-700 dark:text-white mb-2'>
+                                        {certification.title}
+                                   </h3>
+                                   <p className='text-gray-600 dark:text-white/80 mb-1'>
+                                        {certification.company}, {certification.year}
+                                   </p>
                               </motion.div>
                          </motion.div>
                     ))}

@@ -128,10 +128,9 @@ export const toolsData = [
 
 
 export const certificationsData = [
-
     {
         id: 1,
-        image: '/certificates/thrice-cert.png',
+        image: '/thrive-cert.jpg',
         title: 'Frontend Software Engineer',
         company: 'Thrive Africa',
         year: '2024'
@@ -139,7 +138,7 @@ export const certificationsData = [
     {
         id: 2,
         image: '/certificates/ktu-cert.png',
-        title: 'Frontend Software Engineer',
+        title: 'KTU Certified Frontend Software Engineer',
         company: 'KTU/Thrive Africa',
         year: '2025'
     },
