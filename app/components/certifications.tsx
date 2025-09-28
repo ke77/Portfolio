@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
-import { assets, certificationsData } from '@/assets/assets';
+import { certificationsData } from '@/assets/assets';
 
 
-const Certifications = ({ isDarkMode }: any) => {
+const Certifications = () => {
 
      return (
           <motion.div
@@ -12,7 +12,7 @@ const Certifications = ({ isDarkMode }: any) => {
                whileInView={{ opacity: 1 }}
                transition={{ duration: 1 }}
                id='certifications' 
-               className='lg:min-w-3xl mx-auto border w-full px-[12%] py-10 scroll-mt-20 mb-14'
+               className='lg:min-w-3xl mx-auto w-full px-[12%] py-10 scroll-mt-20 mb-14'
           >
                <motion.h4 
                     initial={{ opacity: 0, y: -20 }}

@@ -1,11 +1,10 @@
 import React from 'react';
-import { assets, workData } from '@/assets/assets';
+import { workData } from '@/assets/assets';
 import Image from 'next/image';
-import Link from 'next/link';
 import { TbBrandGithubFilled } from 'react-icons/tb';
 import { motion } from 'motion/react';
 
-const Work = ({ isDarkMode }: any) => {
+const Work = () => {
      return (
           <motion.div 
                initial={{ opacity: 0 }}

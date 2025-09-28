@@ -3,7 +3,7 @@ import { assets } from '@/assets/assets';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Footer = ({ isDarkMode }: any) => {
+const Footer = ({ isDarkMode }) => {
      return (
           <div className='mt-14'>
                <div className='text-center -space-y-10'>
