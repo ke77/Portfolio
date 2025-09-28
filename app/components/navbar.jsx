@@ -51,7 +51,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                               <Image src={isDarkMode ? assets.sun_icon : assets.moon_icon} alt='' className='w-6' />
                          </button>
 
-                         <Link href='#contact' className='hidden lg:flex items-center gap-3 px-14 py-2 border border-gray-500 rounded-full ml-2 font-ovo'>
+                         <Link href='mailto:agbapeykelvin@gmail.com' className='hidden lg:flex items-center gap-3 px-14 py-2 border border-gray-500 rounded-full ml-2 font-ovo'>
                               Contact 
                               <Image src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} className='w-3' alt='arrow' /> 
                          </Link>

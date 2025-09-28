@@ -69,6 +69,17 @@ const Work = ({ isDarkMode }: any) => {
                     )) }
                </motion.div>
 
+               <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5, delay: 1.2 }}
+                    className='text-center mt-12'
+               >
+                    <p className='text-[15px] text-gray-600 dark:text-white/80 text-sm font-ovo'>
+                         Continuously learning and expanding my skill set through professional certifications.
+                    </p>
+               </motion.div>
+
                <motion.a 
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}

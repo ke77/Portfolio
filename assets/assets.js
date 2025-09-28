@@ -125,3 +125,22 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.supabase, assets.postgres, assets.figma, assets.appwrite, assets.git
 ];
+
+
+export const certificationsData = [
+
+    {
+        id: 1,
+        image: '/certificates/thrice-cert.png',
+        title: 'Frontend Software Engineer',
+        company: 'Thrive Africa',
+        year: '2024'
+    },
+    {
+        id: 2,
+        image: '/certificates/ktu-cert.png',
+        title: 'Frontend Software Engineer',
+        company: 'KTU/Thrive Africa',
+        year: '2025'
+    },
+]

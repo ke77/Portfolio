@@ -46,7 +46,7 @@ const Header = () => {
                          initial={{ y: 30, opacity: 0 }}
                          whileInView={{ y: 0, opacity: 1 }}
                          transition={{ duration: 0.6, delay: 1 }}
-                         href='#contact' className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 hover:shadow-xl dark:bg-transparent'
+                         href='https://www.linkedin.com/in/kelvin-agbakpey-2a6b74303' className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 hover:shadow-xl dark:bg-transparent'
                     >
                          Connect with me 
                          <Image src={assets.right_arrow_white} alt='' className='w-4' />

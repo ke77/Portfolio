@@ -7,6 +7,7 @@ import Work from './components/work';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import { useEffect, useState } from 'react';
+import Certifications from './components/certifications';
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false)
@@ -33,6 +34,7 @@ export default function Home() {
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Header />
       <About isDarkMode={isDarkMode} />
+      <Certifications />
       {/* <Services /> */}
       <Work isDarkMode={isDarkMode} />
       <Contact />
