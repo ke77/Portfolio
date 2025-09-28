@@ -50,7 +50,7 @@ const About = ({ isDarkMode }: any) => {
                          className='flex-1'
                     >
                          <p className='text-[17px] mb-10 max-w-2xl font-ovo'>
-                              I am a Frontend Developer with more than two years of experience in the field. I am mainly a web developer with some experience and growing interest in mobile app development.
+                              I am a Frontend Developer with more than two years of experience in the field and passion for building real world solutions with tech. I am mainly a web developer with some experience and growing interest in mobile app development and AI integration into software. 
                          </p>
 
                          <motion.ul 

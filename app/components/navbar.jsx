@@ -41,7 +41,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                     <ul className={`hidden lg:flex items-center gap-6 lg:gap-8 rounded-full px-16 py-3 font-ovo bg-opacity-50 transition duration-300 dark:bg-white/20 dark:ml-6 ${ isScroll ? '' : 'bg-white bg-opacity-50 shadow-sm dark:bg-transparent' }`}>
                          <li><Link href='#'>Home</Link></li>
                          <li><Link href='#about'>About me</Link></li>
-                         <li><Link href='#services'>Services</Link></li>
+                         {/* <li><Link href='#services'>Services</Link></li> */}
                          <li><Link href='#my-work'>My work</Link></li>
                          <li><Link href='#contact'>Contact me</Link></li>
                     </ul>
