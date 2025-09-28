@@ -21,7 +21,7 @@ const Header = () => {
                     transition={{ duration: 0.6, delay: 0.3 }}
                     className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'
                >
-                    Hi! I am Kelvin Kobby  <Image src={assets.hand_icon} alt='' className='w-7' /> 
+                    Hi! I'm Kelvin Kobby  <Image src={assets.hand_icon} alt='' className='w-7' /> 
                </motion.h3>
 
                <motion.h1
@@ -30,7 +30,7 @@ const Header = () => {
                     transition={{ duration: 0.8, delay: 0.5 }}
                     className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'
                >
-                    frontend developer based in Accra.
+                    JavaScript developer based in Accra.
                </motion.h1>
                <motion.p
                     initial={{ opacity: 0 }}
@@ -38,7 +38,7 @@ const Header = () => {
                     transition={{ duration: 0.7, delay: 0.6 }}
                     className='max-w-2xl mx-auto font-ovo text-md'
                >
-                    I am a frontend developer from Accra, Ghana with more than two years of experience
+                    "Frontend Developer 🚀 | React • TypeScript • Next.js | 2+ years creating digital excellence from Accra, Ghana"
                </motion.p>
 
                <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
@@ -56,7 +56,7 @@ const Header = () => {
                          initial={{ y: 30, opacity: 0 }}
                          whileInView={{ y: 0, opacity: 1 }}
                          transition={{ duration: 0.6, delay: 1.2 }}
-                         href='/sample_resume.pdf' className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white hover:shadow-lg dark:text-black' download
+                         href='/sample_resume.pdf' className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white hover:shadow-lg dark:text-black' target='_blank'
                     >
                          My resume 
                          <Image src={assets.download_icon} alt='' className='w-4' />

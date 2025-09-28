@@ -10,7 +10,7 @@ const Work = () => {
                initial={{ opacity: 0 }}
                whileInView={{ opacity: 1 }}
                transition={{ duration: 1 }} 
-               id='my-work' className='max-w-6xl w-full px-[12%] py-10 scroll-mt-20 mx-auto flex flex-col lg:items-center'
+               id='my-work' className='max-w-6xl w-full px-[5%] sm:px-[12%] py-10 scroll-mt-20 mx-auto flex flex-col lg:items-center'
           >
                <motion.h4 
                     initial={{ y: -20, opacity: 0 }}
@@ -43,7 +43,7 @@ const Work = () => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.6, delay: 0.9 }}
-                    className='lg:w-5xl lg:max-w-5xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-10 gap-8 sm:gap-5 md:gap-y-6 sm:gap-x-9 dark:text-black'
+                    className='lg:w-5xllg:max-w-5xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-10 gap-8 sm:gap-5 md:gap-y-6 sm:gap-x-9 dark:text-black'
                >
                     { workData.map((project, index) => (
                          <motion.a 

@@ -35,7 +35,7 @@ const Contact = () => {
                initial={{ opacity: 0 }} 
                whileInView={{ opacity: 1 }}
                transition={{ duration: 1 }}
-               id='contact' className='w-full px-[12%] py-10 scroll-mt-20 mx-auto bg-[url("/footer-bg-color.png")] bg-no-repeat bg-cover bg-center bg-[length: 90%_auto] dark:bg-none'
+               id='contact' className='w-full px-[7%] sm:px-[12%] py-10 scroll-mt-20 mx-auto bg-[url("/footer-bg-color.png")] bg-no-repeat bg-cover bg-center bg-[length: 90%_auto] dark:bg-none'
           >
                <motion.h4
                     initial={{ y: -20, opacity: 0 }}
@@ -62,9 +62,10 @@ const Contact = () => {
                     initial={{ opacity: 0 }} 
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.9 }}
-                    onSubmit={onSubmit} className='max-w-2xl mx-auto'
+                    onSubmit={onSubmit} 
+                    className='max-w-2xl mx-auto'
                >
-                    <div className='grid grid-cols-2 gap-6 mt-10 mb-8'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 mb-8'>
                          <motion.input 
                               initial={{ x: -50, opacity: 0 }}
                               whileInView={{ x: 0, opacity: 1 }}

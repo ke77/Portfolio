@@ -38,31 +38,31 @@ const About = ({ isDarkMode }: any) => {
                          initial={{ opacity: 0, scale: 0.9 }}
                          whileInView={{ opacity: 1, scale: 1 }}
                          transition={{ duration: 0.6 }} 
-                         className='w-64 sm:w-80 rounded-3xl max-w-none'
+                         className='w-64 sm:w-80 rounded-3xl max-w-none shadow-lg'
                     >
-                         <Image src={assets.user_image} alt='user' className='w-full rounded-3xl' />
+                         <Image src={assets.user_image} alt='user' className='w-full h-[27rem] rounded-3xl' />
                     </motion.div>
 
                     <motion.div
                          initial={{ opacity: 0 }}
                          whileInView={{ opacity: 1 }}
-                         transition={{ duration: 0.6, delay: 0.8 }} 
+                         transition={{ duration: 0.6, delay: 0.7 }} 
                          className='flex-1'
                     >
-                         <p className='text-[17px] mb-10 max-w-2xl font-ovo'>
-                              I am a Frontend Developer with more than two years of experience in the field and passion for building real world solutions with tech. I am mainly a web developer with some experience and growing interest in mobile app development and AI integration into software. 
+                         <p className='text-[17px] text-center mb-10 max-w-2xl font-ovo'>
+                              I have 2+ years of experience in the field, with a passion for building real world solutions with tech. I am mainly a web developer with growing interest and experience in mobile app development and AI integration into software. 
                          </p>
 
                          <motion.ul 
                               initial={{ opacity: 0 }}
                               whileInView={{ opacity: 1 }}
-                              transition={{ duration: 0.8, delay: 1 }} 
+                              transition={{ duration: 0.8, delay: 0.85 }} 
                               className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-2xl'
                          >
                               {infoList.map(({icon, iconDark, title, description}, i) => (
                                    <motion.li 
                                         // whileHover={{ scale: 1.05 }}
-                                        key={i} className='border-[0.5px] border-gray-400 rounded-xl px-5 py-4 cursor-pointer hover:bg-lightHover hover:-translate-y-1 hover:border-gray-100 transition duration-500 hover:shadow-md dark:border-white/60 dark:hover:shadow-white dark:hover:bg-darkHover/50 '
+                                        key={i} className='border-[0.5px] border-gray-400 rounded-xl px-5 py-7 sm:py-4 cursor-pointer hover:bg-lightHover hover:-translate-y-1 hover:border-gray-100 transition duration-500 hover:shadow-md dark:border-white/60 dark:hover:shadow-white dark:hover:bg-darkHover/50 '
                                    >
                                         <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-9 mt-3' />
                                         <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>{title}</h3>
@@ -74,7 +74,7 @@ const About = ({ isDarkMode }: any) => {
                          <motion.h4 
                               initial={{ opacity: 0, y: 20 }}
                               whileInView={{ opacity: 1, y: 0 }}
-                              transition={{ duration: 0.5, delay: 1.3 }} 
+                              transition={{ duration: 0.5, delay: 1.1 }} 
                               className='mt-8 mb-4 text-gray-700 font-ovo text-lg dark:text-white/80'
                          >
                               Tools I use
@@ -83,7 +83,7 @@ const About = ({ isDarkMode }: any) => {
                          <motion.ul 
                               initial={{ opacity: 0 }}
                               whileInView={{ opacity: 1 }}
-                              transition={{ duration: 0.6, delay: 1.5 }} 
+                              transition={{ duration: 0.6, delay: 1.2 }} 
                               className='flex items-center gap-3 sm:gap-5'
                          >
                               {toolsData.map((tool, index) => (

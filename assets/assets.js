@@ -105,7 +105,7 @@ export const workData = [
     {
         title: 'Gadget Store',
         description: 'Product shop',
-        bgImage: '/work-4.png',
+        bgImage: '/tgs.jpg',
         logo: '/gadget-store.png',
         link: 'https://gadget-store00.vercel.app'
     },
@@ -137,8 +137,8 @@ export const certificationsData = [
     },
     {
         id: 2,
-        image: '/certificates/ktu-cert.png',
-        title: 'KTU Certified Frontend Software Engineer',
+        image: '/ktu-cert.jpg',
+        title: 'KTU-Certified Frontend Software Engineer',
         company: 'KTU/Thrive Africa',
         year: '2025'
     },
