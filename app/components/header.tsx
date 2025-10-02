@@ -10,6 +10,7 @@ const Header = () => {
                     initial={{ scale: 0 }}
                     whileInView={{ scale: 1 }}
                     transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
+                    className='mt-3 sm:mt-0'
                >
                     <Image src={assets.profile_img} alt='' className='rounded-full w-32' />
                </motion.div>
@@ -28,7 +29,7 @@ const Header = () => {
                     initial={{ y: -30, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.5 }}
-                    className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'
+                    className='text-3xl sm:text-6xl lg:text-[66px] font-ovo mt-2'
                >
                     JavaScript developer based in Accra.
                </motion.h1>
@@ -38,7 +39,7 @@ const Header = () => {
                     transition={{ duration: 0.7, delay: 0.6 }}
                     className='max-w-2xl mx-auto font-ovo text-md'
                >
-                    "Frontend Developer 🚀 | React • TypeScript • Next.js | 2+ years creating digital excellence from Accra, Ghana"
+                    "Frontend Developer 🚀 | React • TypeScript • Next.js | 2+ years creating digital excellence."
                </motion.p>
 
                <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

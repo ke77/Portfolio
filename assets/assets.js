@@ -131,7 +131,7 @@ export const certificationsData = [
     {
         id: 1,
         image: '/thrive-cert.jpg',
-        title: 'Frontend Software Engineer',
+        title: 'Frontend Software Engineer', 
         company: 'Thrive Africa',
         year: '2024'
     },
