@@ -93,7 +93,7 @@ export const workData = [
         description: 'Amazon website clone',
         bgImage: '/work-2.jpg',
         logo: '/amazon.png',
-        link: 'https://amazon-project00.vercel.app'
+        link: 'https://amazon-clone00.vercel.app'
     },
     {
         title: 'Hirely - Job search',
